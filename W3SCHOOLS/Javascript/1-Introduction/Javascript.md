@@ -86,3 +86,43 @@ function myFunction() {
 
 - `getElementById()`: Returns an element object representing the element whose id property matches the specified string 
 
+## JavaScript Syntax
+
+```js	
+// How to create variables
+var x;
+let y;
+
+// How to use variables
+x = 5;
+y = 6;
+let z = x + y;
+```
+
+### JavaScript Values
+The javaScript values are of 2 types:
+1. Fixed values -> Literals
+2. Variable values -> Variables
+
+#### JavaScript Literals
+A literal is a fixed value that you literally provide in your script. For example, the string "Hello World" is a literal. The number 5 is also a literal.
+
+#### JavaScript Variables
+A variable is a named storage for data. We can use variables to store data.
+
+#### JavaScript Identifiers
+An identifier is a name. In JavaScript, identifiers are used to name variables (and keywords, and functions, and labels).
+
+A JavaScript name must begin with:
+- A letter (A-Z or a-z)
+- A dollar sign ($)
+- Or an underscore (_)
+
+Numbers are not allowed to be the first character.
+
+#### JavaScript and Camel Case
+Hyphens are not allowed in JavaScript because they are reserved for subtractions. Camel case is the practice of writing compound words or phrases such that each word or abbreviation in the middle of the phrase begins with a capital letter, with no intervening spaces or punctuation.
+
+No-go: `my-first-variable`
+Underscore: `my_first_variable`
+Camel case: `myFirstVariable`
