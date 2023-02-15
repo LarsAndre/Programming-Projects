@@ -7,17 +7,27 @@ Current time is : 10 PM : 30 : 38
 
 <html>
 <head>
-<title>Display the current day and time</title>
-<h2>Using new Date()</h2>
+    <title>Display the current day and time</title>
+    <h2>Using new Date()</h2>
 </head>
 
 <body>
-    <p id="day"></p>
-<script>
-    const date = new Date();
-    const time = date.toLocaleTimeString();
-    document.getElementById("day").innerHTML = "Today is: " + date.getDay();
-    document.getElementById("day").innerHTML += "<br>Current time is: " + time;
-</script>
+    <p id="Day"></p>
+    <p id="Time"></p>
+
+    <script>
+        // A function to display the current day
+        const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+        const d = new Date();
+        let day = days[d.getDay()];
+
+        // A function to display the current time
+        const time = new Date()
+
+        // Display the current day and time
+        document.getElementById("Day").innerHTML = "Today is: " + day;
+        document.getElementById("Time").innerHTML = "Current time is: " + time.getHours() + " : " + time.getMinutes() + " : " + time.getSeconds();
+    </script>
+
 </body>
 </html>
