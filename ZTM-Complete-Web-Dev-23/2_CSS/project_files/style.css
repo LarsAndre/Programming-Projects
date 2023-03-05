@@ -1,0 +1,11 @@
+/* Selector {
+    Property: value;
+} */
+
+h2 {
+    color: red;
+}
+
+p {
+    color: rgb(231, 121, 107);
+}
