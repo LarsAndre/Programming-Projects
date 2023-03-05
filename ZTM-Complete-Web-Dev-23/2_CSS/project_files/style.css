@@ -2,10 +2,26 @@
     Property: value;
 } */
 
-h2 {
-    color: red;
+body {
+    background-image: url(https://images.unsplash.com/photo-1532767153582-b1a0e5145009?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-size: cover;
 }
 
-p {
+h2 {
+    color: #D80758;
+    text-align: center;
+    border: 3px solid #641131;
+    cursor: pointer;
+}
+
+li {
     color: rgb(231, 121, 107);
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+
+p {
+    color: #C7698D;
 }
