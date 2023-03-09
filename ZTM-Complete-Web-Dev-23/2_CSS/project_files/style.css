@@ -25,3 +25,31 @@ li {
 p {
     color: #C7698D;
 }
+
+.webtext {
+    background-color: #F2E9E4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: calc(100% - 20%);
+}
+
+.active {
+    color: rgb(0, 0, 0);
+}
+
+#div1 :hover {
+    background-color: #1b435d;
+    opacity: calc(80% - 20%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#div2 {
+    background-color: #5d1b38;
+    opacity: calc(80% - 20%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
