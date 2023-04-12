@@ -1,45 +1,12 @@
 body {
-    margin:0;
-} 
-
-.green {
-    grid-area: header;
+    margin: auto 0;
 }
-
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.red {
-    grid-area: information;
-}
-
-.blue {
-    grid-area: main;
-}
-
-.yellow {
-    grid-area: footer;
-}
-
-
-.container {
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "header header header header"
-      "information information information information"
-      "main main main main"
-      "footer footer footer footer";
-}
-
-
 
 .zone {
+    /* padding:30px 50px;
+    margin:40px 60px; */
     cursor:pointer;
+    /* display:inline-block; */
     color:#FFF;
     font-size:2em;
     border-radius:4px;
@@ -52,6 +19,68 @@ body {
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/* Navigation */
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+/* To make the transition from small/large screen */
+@media only screen and (max-width: 600px) {
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: #f5f5f6;
+    text-decoration: none;
+}
+
+/* Cover */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+/* Grid */
+
+.grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+/* Every child item "img" of the class .box */
+.box > img {
+    width: 100%; /* to make the images sized correctly */
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
