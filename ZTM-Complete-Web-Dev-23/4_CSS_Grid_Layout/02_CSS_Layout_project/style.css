@@ -1,8 +1,45 @@
+body {
+    margin:0;
+} 
+
+.green {
+    grid-area: header;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.red {
+    grid-area: information;
+}
+
+.blue {
+    grid-area: main;
+}
+
+.yellow {
+    grid-area: footer;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "information information information information"
+      "main main main main"
+      "footer footer footer footer";
+}
+
+
+
 .zone {
-    padding:30px 50px;
-    margin:40px 60px;
     cursor:pointer;
-    display:inline-block;
     color:#FFF;
     font-size:2em;
     border-radius:4px;
