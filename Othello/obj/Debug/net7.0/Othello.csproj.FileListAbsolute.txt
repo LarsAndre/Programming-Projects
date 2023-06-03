@@ -1,0 +1,15 @@
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\bin\Debug\net7.0\Othello.exe
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\bin\Debug\net7.0\Othello.deps.json
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\bin\Debug\net7.0\Othello.runtimeconfig.json
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\bin\Debug\net7.0\Othello.dll
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\bin\Debug\net7.0\Othello.pdb
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\Othello.csproj.AssemblyReference.cache
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\Othello.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\Othello.AssemblyInfoInputs.cache
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\Othello.AssemblyInfo.cs
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\Othello.csproj.CoreCompileInputs.cache
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\Othello.dll
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\refint\Othello.dll
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\Othello.pdb
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\Othello.genruntimeconfig.cache
+C:\Users\larsa\Documents Local\GitHub Projects\Programming-Projects\Othello\obj\Debug\net7.0\ref\Othello.dll
