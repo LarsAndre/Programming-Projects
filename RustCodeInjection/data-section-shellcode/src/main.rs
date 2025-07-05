@@ -1,10 +1,5 @@
 use std::fmt::Write;
 
-// generate ipv4 strings from 4 bytes
-fn generate_ipv4(a: u8, b: u8, c: u8, d: u8) -> String {
-    format!("{}.{}.{}.{}", a, b, c, d) // write formatted text to String
-}
-
 // Generate the IPv4 output representation of the shellcode
 // Function requires a pointer or base address to the shellcode buffer & the size of the shellcode buffer
 fn generate_ipv4_output(shellcode: &[u8]) -> bool {
@@ -22,7 +17,8 @@ fn generate_ipv4_output(shellcode: &[u8]) -> bool {
     // enumerate all of the ipv4 octets
     for (i, chunk) in shellcode.chunks(4).enumerate() {
         counter += 1;
-        let ip = generate_ipv4(chunk[0], chunk[1], chunk[2], chunk[3]); // each chunk is the 1 byte ipv4 octet
+        // each chunk is the 1 byte ipv4 octet
+        let ip: String = format!("{}.{}.{}.{}", chunk[0], chunk[1], chunk[2], chunk[3]);
 
         if i == array_size - 1 {
             // last element
