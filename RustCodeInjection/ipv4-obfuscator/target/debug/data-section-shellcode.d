@@ -1,1 +1,0 @@
-C:\Users\larsa\Documents\Programming-Projects\RustCodeInjection\data-section-shellcode\target\debug\data-section-shellcode.exe: C:\Users\larsa\Documents\Programming-Projects\RustCodeInjection\data-section-shellcode\src\main.rs
